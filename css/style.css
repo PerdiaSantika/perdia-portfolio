@@ -1,0 +1,565 @@
+/* ===================================================
+   PORTFOLIO CSS
+   Author : Perdia Santika
+=================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+    background:#F8FAFC;
+    color:#334155;
+
+}
+
+section{
+
+    padding:100px 0;
+
+}
+
+a{
+
+    text-decoration:none;
+
+}
+
+img{
+
+    max-width:100%;
+
+}
+
+/* ===========================
+        NAVBAR
+=========================== */
+
+.navbar{
+
+    padding:18px 0;
+    transition:.4s;
+    background:white;
+
+}
+
+.navbar-brand{
+
+    font-size:30px;
+    font-weight:700;
+    color:#2563EB !important;
+
+}
+
+.nav-link{
+
+    font-weight:500;
+    margin-left:20px;
+    color:#334155 !important;
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:#2563EB !important;
+
+}
+
+.navbar.scrolled{
+
+    background:#ffffff !important;
+
+    padding:12px 0;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+/* ===========================
+        HERO
+=========================== */
+
+#home{
+
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+
+}
+
+.badge{
+
+    padding:10px 18px;
+    font-size:15px;
+
+}
+
+#home h1{
+
+    font-size:35px;
+    font-weight:700;
+
+}
+
+#home h3{
+
+    color:#2563EB;
+    margin:13px 0;
+
+}
+
+#home p{
+
+    line-height:25px;
+    color:#64748B;
+
+}
+
+.btn{
+
+    border-radius:40px;
+    padding:12px 30px;
+
+}
+
+.profile-img{
+
+    width:380px;
+    border-radius:50%;
+    border:10px solid white;
+    box-shadow:0 20px 50px rgba(0,0,0,.15);
+
+}
+/* ===========================
+        ABOUT
+=========================== */
+
+#about{
+
+    background:white;
+
+}
+
+#about h2{
+
+    font-weight:700;
+
+}
+
+#about p{
+
+    line-height:34px;
+    color:#64748B;
+
+}
+/* ===========================
+        SKILLS
+=========================== */
+
+#skills{
+
+    background:#F8FAFC;
+
+}
+
+#skills .card{
+
+    border:none;
+    border-radius:20px;
+    transition:.4s;
+
+}
+
+#skills .card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.08);
+
+}
+
+.progress{
+
+    height:10px;
+    border-radius:50px;
+
+}
+
+.progress-bar{
+
+    border-radius:50px;
+
+}
+/*==============================
+        ABOUT
+===============================*/
+
+.about-card{
+
+    border-radius:25px;
+
+    transition:.4s;
+
+}
+
+.about-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.about-photo{
+
+    width:200px;
+
+    height:200px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:6px solid #2563EB;
+
+}
+
+.about-card p{
+
+    margin-bottom:12px;
+
+}
+
+.about-card i{
+
+    width:25px;
+
+}
+
+/*==============================
+      STATISTICS
+===============================*/
+
+.stat-box{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    height:100%;
+
+}
+
+.stat-box:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.stat-box h2{
+
+    color:#2563EB;
+
+    font-size:38px;
+
+    font-weight:700;
+
+    margin-bottom:5px;
+
+}
+
+.stat-box small{
+
+    color:#64748B;
+
+    font-size:15px;
+
+}
+/* ===========================
+        EXPERIENCE
+=========================== */
+
+#experience{
+
+    background:#f8fafc;
+
+}
+
+#experience .card{
+
+    border:none;
+
+    border-radius:20px;
+
+    transition:.35s;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+#experience .card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(37,99,235,.18);
+
+}
+
+#experience .card-body{
+
+    padding:35px;
+
+}
+
+#experience h2{
+
+    font-weight:700;
+
+    color:#0f172a;
+
+}
+
+#experience h3{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#0f172a;
+
+}
+
+#experience h5{
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+#experience p{
+
+    color:#64748b;
+
+    line-height:30px;
+
+    text-align:justify;
+
+}
+
+#experience hr{
+
+    opacity:.15;
+
+    margin:25px 0;
+
+}
+
+#experience .badge{
+
+    padding:8px 18px;
+
+    font-size:14px;
+
+    border-radius:30px;
+
+}
+
+#experience .fa-check-circle{
+
+    color:#22c55e;
+
+}
+
+#experience .achievement-card{
+
+    text-align:center;
+
+}
+
+#experience .achievement-card i{
+
+    color:#facc15;
+
+    margin-bottom:20px;
+
+    transition:.3s;
+
+}
+
+#experience .achievement-card:hover i{
+
+    transform:rotate(-10deg) scale(1.1);
+
+}
+
+#experience .achievement-card .badge{
+
+    font-size:15px;
+
+    padding:12px 18px;
+
+    border-radius:30px;
+
+}
+
+#experience ul{
+
+    list-style:none;
+
+    padding-left:0;
+
+    margin-bottom:0;
+
+}
+
+#experience ul li{
+
+    margin-bottom:15px;
+
+    color:#475569;
+
+}
+
+#experience ul li i{
+
+    color:#22c55e;
+
+    margin-right:10px;
+
+}
+/* ===========================
+        PROJECT
+=========================== */
+
+#projects{
+
+    background:#F8FAFC;
+
+}
+
+#projects .card{
+
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.4s;
+
+}
+
+#projects img{
+
+    height:220px;
+    object-fit:cover;
+
+}
+
+#projects .card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+}
+/* ===========================
+      CERTIFICATE
+=========================== */
+
+#certificates{
+
+    background:white;
+
+}
+
+#certificates .card{
+
+    border:none;
+    border-radius:20px;
+
+}
+/* ===========================
+        CONTACT
+=========================== */
+
+#contact{
+
+    background:#F8FAFC;
+
+}
+
+#contact p{
+
+    font-size:18px;
+
+}
+footer{
+
+    background:#1E293B;
+
+    color:white;
+
+}
+/* ===========================
+        RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+#home{
+
+text-align:center;
+
+}
+
+.profile-img{
+
+width:280px;
+margin-top:50px;
+
+}
+
+#home h1{
+
+font-size:45px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+section{
+
+padding:70px 0;
+
+}
+
+#home h1{
+
+font-size:38px;
+
+}
+
+.nav-link{
+
+margin-left:0;
+
+}
+
+}
