@@ -1,0 +1,923 @@
+/* ===================================================
+   PORTFOLIO CSS
+   Author : Perdia Santika
+=================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+    background:#F8FAFC;
+    color:#334155;
+
+}
+
+section{
+
+    padding:100px 0;
+
+}
+
+a{
+
+    text-decoration:none;
+
+}
+
+img{
+
+    max-width:100%;
+
+}
+
+/* ===========================
+        NAVBAR
+=========================== */
+
+.navbar{
+
+    padding:18px 0;
+    transition:.4s;
+    background:white;
+
+}
+
+.navbar-brand{
+
+    font-size:30px;
+    font-weight:700;
+    color:#2563EB !important;
+
+}
+
+.nav-link{
+
+    font-weight:500;
+    margin-left:20px;
+    color:#334155 !important;
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:#2563EB !important;
+
+}
+
+.navbar.scrolled{
+
+    background:#ffffff !important;
+
+    padding:12px 0;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+/* ===========================
+        HERO
+=========================== */
+
+#home{
+
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+
+}
+
+.badge{
+
+    padding:10px 18px;
+    font-size:15px;
+
+}
+
+#home h1{
+
+    font-size:35px;
+    font-weight:700;
+
+}
+
+#home h3{
+
+    color:#2563EB;
+    margin:13px 0;
+
+}
+
+#home p{
+
+    line-height:25px;
+    color:#64748B;
+
+}
+
+.btn{
+
+    border-radius:40px;
+    padding:12px 30px;
+
+}
+
+.profile-img{
+
+    width:380px;
+    border-radius:50%;
+    border:10px solid white;
+    box-shadow:0 20px 50px rgba(0,0,0,.15);
+
+}
+/* ===========================
+        ABOUT
+=========================== */
+
+#about{
+
+    background:white;
+
+}
+
+#about h2{
+
+    font-weight:700;
+
+}
+
+#about p{
+
+    line-height:34px;
+    color:#64748B;
+
+}
+/* ===========================
+        SKILLS
+=========================== */
+
+#skills{
+
+    background:#F8FAFC;
+
+}
+
+#skills .card{
+
+    border:none;
+    border-radius:20px;
+    transition:.4s;
+
+}
+
+#skills .card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.08);
+
+}
+
+.progress{
+
+    height:10px;
+    border-radius:50px;
+
+}
+
+.progress-bar{
+
+    border-radius:50px;
+
+}
+/*==============================
+        ABOUT
+===============================*/
+
+.about-card{
+
+    border-radius:25px;
+
+    transition:.4s;
+
+}
+
+.about-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.about-photo{
+
+    width:200px;
+
+    height:200px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:6px solid #2563EB;
+
+}
+
+.about-card p{
+
+    margin-bottom:12px;
+
+}
+
+.about-card i{
+
+    width:25px;
+
+}
+
+/*==============================
+      STATISTICS
+===============================*/
+
+.stat-box{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    height:100%;
+
+}
+
+.stat-box:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.stat-box h2{
+
+    color:#2563EB;
+
+    font-size:38px;
+
+    font-weight:700;
+
+    margin-bottom:5px;
+
+}
+
+.stat-box small{
+
+    color:#64748B;
+
+    font-size:15px;
+
+}
+/* ===========================
+        EXPERIENCE
+=========================== */
+
+#experience{
+
+    background:#f8fafc;
+
+}
+
+#experience .card{
+
+    border:none;
+
+    border-radius:20px;
+
+    transition:.35s;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+#experience .card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(37,99,235,.18);
+
+}
+
+#experience .card-body{
+
+    padding:35px;
+
+}
+
+#experience h2{
+
+    font-weight:700;
+
+    color:#0f172a;
+
+}
+
+#experience h3{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#0f172a;
+
+}
+
+#experience h5{
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+#experience p{
+
+    color:#64748b;
+
+    line-height:30px;
+
+    text-align:justify;
+
+}
+
+#experience hr{
+
+    opacity:.15;
+
+    margin:25px 0;
+
+}
+
+#experience .badge{
+
+    padding:8px 18px;
+
+    font-size:14px;
+
+    border-radius:30px;
+
+}
+
+#experience .fa-check-circle{
+
+    color:#22c55e;
+
+}
+
+#experience .achievement-card{
+
+    text-align:center;
+
+}
+
+#experience .achievement-card i{
+
+    color:#facc15;
+
+    margin-bottom:20px;
+
+    transition:.3s;
+
+}
+
+#experience .achievement-card:hover i{
+
+    transform:rotate(-10deg) scale(1.1);
+
+}
+
+#experience .achievement-card .badge{
+
+    font-size:15px;
+
+    padding:12px 18px;
+
+    border-radius:30px;
+
+}
+
+#experience ul{
+
+    list-style:none;
+
+    padding-left:0;
+
+    margin-bottom:0;
+
+}
+
+#experience ul li{
+
+    margin-bottom:15px;
+
+    color:#475569;
+
+}
+
+#experience ul li i{
+
+    color:#22c55e;
+
+    margin-right:10px;
+
+}
+/* ===========================
+        PROJECTS
+=========================== */
+
+#projects{
+
+    background:#F8FAFC;
+    padding:80px 0;
+
+}
+
+#projects .card{
+
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.4s ease;
+    height:100%;
+    background:#fff;
+
+}
+
+#projects .card:hover{
+
+    transform:translateY(-12px);
+    box-shadow:0 20px 45px rgba(13,110,253,.15);
+
+}
+
+/* Gambar */
+
+#projects .card-img-top{
+
+    height:220px;
+    object-fit:cover;
+    transition:.5s;
+
+}
+
+#projects .card:hover .card-img-top{
+
+    transform:scale(1.08);
+
+}
+
+/* Body */
+
+#projects .card-body{
+
+    padding:25px;
+
+}
+
+#projects h5{
+
+    font-weight:700;
+    margin-bottom:15px;
+
+}
+
+#projects p{
+
+    color:#6c757d;
+    font-size:15px;
+    line-height:28px;
+    text-align:justify;
+    min-height:110px;
+
+}
+
+/* Badge */
+
+#projects .badge{
+
+    margin:3px;
+    padding:8px 14px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:500;
+
+}
+
+/* Tombol */
+
+#projects .btn{
+
+    border-radius:30px;
+    padding:10px 18px;
+    font-size:14px;
+    font-weight:600;
+    transition:.3s;
+
+}
+
+#projects .btn-primary{
+
+    background:#0d6efd;
+    border:none;
+
+}
+
+#projects .btn-primary:hover{
+
+    background:#0b5ed7;
+
+}
+
+#projects .btn-outline-dark:hover{
+
+    background:#212529;
+    color:#fff;
+
+}
+/* ===========================
+      CERTIFICATES
+=========================== */
+
+#certificates{
+
+    background:#ffffff;
+
+    padding:80px 0;
+
+}
+
+#certificates .certificate-card{
+
+    border:none;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.35s ease;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    height:100%;
+
+}
+
+#certificates .certificate-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 45px rgba(13,110,253,.15);
+
+}
+
+#certificates .card-body{
+
+    padding:35px;
+
+}
+
+#certificates h2{
+
+    font-weight:700;
+
+    color:#0f172a;
+
+}
+
+#certificates h4{
+
+    font-weight:700;
+
+    color:#0f172a;
+
+}
+
+#certificates h6{
+
+    font-weight:600;
+
+    margin-top:10px;
+
+}
+
+#certificates p{
+
+    color:#6c757d;
+
+    line-height:28px;
+
+}
+
+#certificates i{
+
+    transition:.4s;
+
+}
+
+#certificates .certificate-card:hover i{
+
+    transform:scale(1.15) rotate(-5deg);
+
+}
+
+#certificates .badge{
+
+    padding:10px 18px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    margin-top:10px;
+
+}
+
+#certificates .btn{
+
+    margin-top:20px;
+
+    border-radius:30px;
+
+    padding:10px 22px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+#certificates .btn-primary{
+
+    background:#0d6efd;
+
+    border:none;
+
+}
+
+#certificates .btn-primary:hover{
+
+    background:#0b5ed7;
+
+}
+
+#certificates .btn-outline-primary:hover{
+
+    background:#0d6efd;
+
+    color:#fff;
+
+}
+/* ===========================
+        CONTACT
+=========================== */
+
+#contact{
+
+    background:#F8FAFC;
+
+    padding:80px 0;
+
+}
+
+#contact h2{
+
+    font-weight:700;
+
+    color:#0F172A;
+
+}
+
+#contact .text-muted{
+
+    font-size:17px;
+
+}
+
+/* Card */
+
+.contact-card,
+.contact-form{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    height:100%;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.contact-card:hover,
+.contact-form:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 45px rgba(13,110,253,.15);
+
+}
+
+/* Contact Item */
+
+.contact-item{
+
+    display:flex;
+
+    align-items:center;
+
+    margin:28px 0;
+
+}
+
+.contact-item i{
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    background:#0D6EFD;
+
+    color:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+    margin-right:18px;
+
+    transition:.3s;
+
+}
+
+.contact-item:hover i{
+
+    transform:rotate(-10deg) scale(1.1);
+
+}
+
+.contact-item h6{
+
+    margin-bottom:4px;
+
+    font-weight:600;
+
+    color:#0F172A;
+
+}
+
+.contact-item p{
+
+    margin:0;
+
+    color:#64748B;
+
+    font-size:15px;
+
+}
+
+/* Form */
+
+.contact-form .form-control{
+
+    border-radius:12px;
+
+    border:1px solid #dbe4ee;
+
+    padding:12px;
+
+}
+
+.contact-form .form-control:focus{
+
+    box-shadow:none;
+
+    border-color:#0D6EFD;
+
+}
+
+.contact-form .btn{
+
+    border-radius:30px;
+
+    padding:12px;
+
+    font-weight:600;
+
+}
+
+/* Footer */
+
+footer{
+
+    background:#1E293B;
+
+    color:#fff;
+
+    padding:25px 0;
+
+    text-align:center;
+
+}
+
+footer p{
+
+    margin:0;
+
+    font-size:15px;
+
+}
+
+footer a{
+
+    color:#60A5FA;
+
+    text-decoration:none;
+
+}
+
+footer a:hover{
+
+    color:#fff;
+
+}
+/* ===========================
+        RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+#home{
+
+text-align:center;
+
+}
+
+.profile-img{
+
+width:280px;
+margin-top:50px;
+
+}
+
+#home h1{
+
+font-size:45px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+section{
+
+padding:70px 0;
+
+}
+
+#home h1{
+
+font-size:38px;
+
+}
+
+.nav-link{
+
+margin-left:0;
+
+}
+
+}
